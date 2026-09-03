@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="R. Charan Shankar Naidu - Marketing Manager with 10+ years of experience in performance marketing, growth, brand management, CRM and AI-powered marketing.">
+
+  <meta name="description" content="R. Charan Shankar Naidu - Marketing Manager with 10+ years of experience across performance marketing, growth, brand management, B2B, CRM, events and AI-powered marketing.">
+
   <title>R. Charan Shankar Naidu | Marketing Manager</title>
+
   <style>
     :root {
       --bg: #0b0d10;
@@ -16,8 +19,15 @@
       --accent: #c9ff4a;
       --max: 1180px;
     }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Inter, Arial, Helvetica, sans-serif;
@@ -25,138 +35,676 @@
       color: var(--text);
       line-height: 1.6;
     }
-    a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
-    .wrap { width: min(92%, var(--max)); margin: auto; }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .wrap {
+      width: min(92%, var(--max));
+      margin: auto;
+    }
+
     nav {
-      position: sticky; top: 0; z-index: 10;
-      background: rgba(11,13,16,.88); backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(11,13,16,.88);
+      backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(255,255,255,.07);
     }
-    .navin { display:flex; justify-content:space-between; align-items:center; padding:18px 0; }
-    .brand { font-weight:800; letter-spacing:-.02em; }
-    .navlinks { display:flex; gap:24px; font-size:14px; color:var(--muted); }
-    .navlinks a:hover { color:var(--text); }
-    .hero { padding:90px 0 70px; }
-    .hero-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:55px; align-items:center; }
-    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:800; }
-    h1 { font-size:clamp(48px, 7vw, 88px); line-height:.98; letter-spacing:-.06em; margin:16px 0 24px; }
-    .hero p { color:var(--muted); font-size:20px; max-width:680px; }
-    .buttons { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
-    .btn { padding:13px 18px; border:1px solid var(--line); border-radius:999px; font-weight:700; font-size:14px; }
-    .btn.primary { background:var(--accent); color:#0b0d10; border-color:var(--accent); }
-    .hero-photo { border-radius:28px; overflow:hidden; border:1px solid var(--line); background:var(--card); }
-    .hero-photo img { aspect-ratio:4/5; object-fit:cover; }
-    section { padding:85px 0; border-top:1px solid rgba(255,255,255,.06); }
-    .section-head { display:flex; justify-content:space-between; gap:30px; align-items:end; margin-bottom:38px; }
-    h2 { font-size:clamp(34px, 5vw, 56px); line-height:1; letter-spacing:-.045em; margin:0; }
-    .lead { color:var(--muted); max-width:620px; margin:0; }
-    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
-    .stat { padding:28px; background:var(--card); border:1px solid var(--line); border-radius:20px; }
-    .stat strong { display:block; font-size:36px; letter-spacing:-.04em; }
-    .stat span { color:var(--muted); font-size:14px; }
-    .two { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
-    .card { background:var(--card); border:1px solid var(--line); border-radius:24px; padding:30px; }
-    .card h3 { margin:0 0 10px; font-size:23px; }
-    .card p { color:var(--muted); margin:0; }
-    .tags { display:flex; flex-wrap:wrap; gap:9px; margin-top:20px; }
-    .tag { border:1px solid var(--line); padding:8px 11px; border-radius:999px; color:#d8dde4; font-size:13px; }
-    .timeline { display:grid; gap:18px; }
-    .role { display:grid; grid-template-columns:220px 1fr; gap:30px; padding:28px 0; border-bottom:1px solid var(--line); }
-    .role:last-child { border-bottom:0; }
-    .date { color:var(--accent); font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
-    .role h3 { margin:0 0 5px; font-size:25px; }
-    .company { color:var(--muted); margin-bottom:15px; }
-    .role ul { margin:0; padding-left:18px; color:var(--muted); }
-    .role li { margin:8px 0; }
-    .gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
-    .gallery figure { margin:0; border-radius:20px; overflow:hidden; background:var(--card); border:1px solid var(--line); }
-    .gallery img { width:100%; aspect-ratio:16/10; object-fit:cover; }
-    .gallery figcaption { padding:15px 17px; color:var(--muted); font-size:14px; }
-    .footer { padding:70px 0 90px; }
-    .contact { background:var(--accent); color:#0b0d10; border-radius:28px; padding:45px; display:flex; justify-content:space-between; gap:30px; align-items:end; }
-    .contact h2 { max-width:700px; }
-    .contact a { background:#0b0d10; color:#fff; padding:13px 18px; border-radius:999px; font-weight:800; white-space:nowrap; }
-    .small { color:var(--muted); font-size:13px; margin-top:30px; }
-    @media (max-width: 850px) {
-      .hero-grid,.two { grid-template-columns:1fr; }
-      .stats { grid-template-columns:repeat(2,1fr); }
-      .role { grid-template-columns:1fr; gap:8px; }
-      .navlinks { display:none; }
-      .contact { flex-direction:column; align-items:flex-start; }
+
+    .navin {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
     }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+
+    .navlinks {
+      display: flex;
+      gap: 24px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .navlinks a:hover {
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 90px 0 70px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    h1 {
+      font-size: clamp(48px, 7vw, 88px);
+      line-height: .98;
+      letter-spacing: -.06em;
+      margin: 16px 0 24px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 20px;
+      max-width: 680px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .btn {
+      padding: 13px 18px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #0b0d10;
+      border-color: var(--accent);
+    }
+
+    .hero-photo {
+      border-radius: 28px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .hero-photo img {
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 85px 0;
+      border-top: 1px solid rgba(255,255,255,.06);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: end;
+      margin-bottom: 38px;
+    }
+
+    h2 {
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1;
+      letter-spacing: -.045em;
+      margin: 0;
+    }
+
+    .lead {
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 14px;
+    }
+
+    .stat {
+      padding: 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 36px;
+      letter-spacing: -.04em;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 30px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 23px;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 20px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      padding: 8px 11px;
+      border-radius: 999px;
+      color: #d8dde4;
+      font-size: 13px;
+    }
+
+    /* FEATURED WORK */
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 1.35fr .65fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .featured-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .featured-card img {
+      width: 100%;
+      height: 100%;
+      min-height: 430px;
+      object-fit: cover;
+    }
+
+    .featured-card .overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 35px 30px 28px;
+      background: linear-gradient(
+        transparent,
+        rgba(11,13,16,.96)
+      );
+    }
+
+    .featured-card h3 {
+      font-size: 30px;
+      margin: 0 0 7px;
+    }
+
+    .featured-card p {
+      color: #d2d7dd;
+      margin: 0;
+      max-width: 700px;
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 18px;
+    }
+
+    .work-card {
+      overflow: hidden;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+    }
+
+    .work-card img {
+      width: 100%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+    }
+
+    .work-content {
+      padding: 24px;
+    }
+
+    .work-content h3 {
+      margin: 0 0 7px;
+      font-size: 22px;
+    }
+
+    .work-content p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .work-label {
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 8px;
+    }
+
+    /* SOCIAL GROWTH */
+
+    .social-growth {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 25px;
+      align-items: stretch;
+    }
+
+    .social-photo {
+      overflow: hidden;
+      border-radius: 26px;
+      border: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .social-photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 430px;
+      object-fit: cover;
+    }
+
+    .social-content {
+      padding: 42px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .social-number {
+      font-size: clamp(65px, 8vw, 105px);
+      line-height: .9;
+      font-weight: 800;
+      letter-spacing: -.07em;
+      margin: 15px 0 20px;
+      color: var(--accent);
+    }
+
+    .social-content h3 {
+      font-size: 30px;
+      margin: 0 0 12px;
+    }
+
+    .social-content p {
+      color: var(--muted);
+      max-width: 600px;
+    }
+
+    /* ALBUM */
+
+    .album {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 12px;
+    }
+
+    .album figure {
+      margin: 0;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .album img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+
+    .album figcaption {
+      padding: 11px 13px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* EXPERIENCE */
+
+    .timeline {
+      display: grid;
+      gap: 18px;
+    }
+
+    .role {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 30px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .role:last-child {
+      border-bottom: 0;
+    }
+
+    .date {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .role h3 {
+      margin: 0 0 5px;
+      font-size: 25px;
+    }
+
+    .company {
+      color: var(--muted);
+      margin-bottom: 15px;
+    }
+
+    .role ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .role li {
+      margin: 8px 0;
+    }
+
+    /* INSTAGRAM */
+
+    .instagram {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      padding: 38px;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .instagram h3 {
+      margin: 8px 0;
+      font-size: 30px;
+    }
+
+    .instagram p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0;
+    }
+
+    .instagram-btn {
+      background: var(--accent);
+      color: #0b0d10;
+      padding: 13px 20px;
+      border-radius: 999px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    /* CONTACT */
+
+    .footer {
+      padding: 70px 0 90px;
+    }
+
+    .contact {
+      background: var(--accent);
+      color: #0b0d10;
+      border-radius: 28px;
+      padding: 45px;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: end;
+    }
+
+    .contact h2 {
+      max-width: 700px;
+    }
+
+    .contact a {
+      background: #0b0d10;
+      color: #fff;
+      padding: 13px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 850px) {
+
+      .hero-grid,
+      .two,
+      .featured-grid,
+      .social-growth {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      .work-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .album {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      .role {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .navlinks {
+        display: none;
+      }
+
+      .contact,
+      .instagram {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
     @media (max-width: 520px) {
-      .hero { padding-top:55px; }
-      .stats,.gallery { grid-template-columns:1fr; }
-      .stat strong { font-size:30px; }
-      section { padding:60px 0; }
+
+      .hero {
+        padding-top: 55px;
+      }
+
+      .stats,
+      .work-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .album {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      .stat strong {
+        font-size: 30px;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      .social-number {
+        font-size: 65px;
+      }
     }
   </style>
 </head>
+
 <body>
+
 <nav>
   <div class="wrap navin">
     <div class="brand">CHARAN.</div>
+
     <div class="navlinks">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#impact">Impact</a>
-      <a href="#work">Work</a>
+      <a href="#work">Selected Work</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
 </nav>
 
+
+<!-- HERO -->
+
 <header class="hero">
+
   <div class="wrap hero-grid">
+
     <div>
-      <div class="eyebrow">Marketing Manager · Growth · AI</div>
-      <h1>Building marketing that moves people and numbers.</h1>
-      <p>
-        I’m R. Charan Shankar Naidu, a marketing leader with 10+ years of experience
-        across performance marketing, brand building, CRM, GTM strategy and AI-powered
-        marketing.
-      </p>
-      <div class="buttons">
-        <a class="btn primary" href="#experience">View my work</a>
-        <a class="btn" href="mailto:charan.shankar09@gmail.com">Get in touch</a>
+
+      <div class="eyebrow">
+        Marketing Manager · Growth · AI · B2B
       </div>
+
+      <h1>
+        Building marketing that moves people and numbers.
+      </h1>
+
+      <p>
+        I’m R. Charan Shankar Naidu, a marketing leader with 10+ years
+        of experience across performance marketing, brand building,
+        B2B growth, CRM, GTM strategy, events and AI-powered marketing.
+      </p>
+
+      <div class="buttons">
+        <a class="btn primary" href="#work">
+          View my work
+        </a>
+
+        <a class="btn" href="mailto:charan.shankar09@gmail.com">
+          Get in touch
+        </a>
+      </div>
+
     </div>
+
     <div class="hero-photo">
-      <img src="images/main-3.jpg" alt="Charan speaking during a presentation">
+      <img
+        src="images/main-2.jpg"
+        alt="Charan Shankar Naidu"
+      >
     </div>
+
   </div>
+
 </header>
 
+
+<!-- ABOUT -->
+
 <section id="about">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>About me</h2>
-      <p class="lead">A mix of strategy, execution, data and storytelling, with a strong focus on measurable growth.</p>
+
+      <p class="lead">
+        A mix of strategy, execution, data, relationships and storytelling,
+        with a strong focus on measurable growth.
+      </p>
+
     </div>
+
+
     <div class="two">
+
       <div class="card">
+
         <h3>How I work</h3>
+
         <p>
-          I build marketing systems that connect acquisition, content, CRM, retention and
-          analytics. My work spans digital campaigns, brand management, events, GTM launches
-          and marketing automation.
+          I build marketing systems that connect acquisition, content,
+          CRM, retention, analytics and business outcomes. My work spans
+          digital campaigns, B2B marketing, brand management, events,
+          GTM launches and marketing automation.
         </p>
+
         <div class="tags">
           <span class="tag">Performance Marketing</span>
           <span class="tag">Growth</span>
+          <span class="tag">B2B Marketing</span>
           <span class="tag">CRM</span>
           <span class="tag">GTM Strategy</span>
           <span class="tag">Brand Management</span>
           <span class="tag">AI & Automation</span>
         </div>
+
       </div>
+
+
       <div class="card">
+
         <h3>Industry experience</h3>
+
         <p>
-          Experience across EdTech, FinTech, FMCG and Agritech, working across B2C and B2B
-          marketing and international markets.
+          Experience across EdTech, FinTech, FMCG and Agritech,
+          working across B2C and B2B marketing and international markets.
         </p>
+
         <div class="tags">
           <span class="tag">EdTech</span>
           <span class="tag">FinTech</span>
@@ -167,127 +715,716 @@
           <span class="tag">USA</span>
           <span class="tag">SE Asia</span>
         </div>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
+
+
+<!-- IMPACT -->
 
 <section id="impact">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>Impact by numbers</h2>
-      <p class="lead">Selected outcomes from my marketing and growth work.</p>
+
+      <p class="lead">
+        Selected outcomes from my marketing, growth and leadership work.
+      </p>
+
     </div>
+
+
     <div class="stats">
-      <div class="stat"><strong>10+</strong><span>Years in marketing</span></div>
-      <div class="stat"><strong>₹50 Cr</strong><span>Revenue scaled at Irra Agrotech</span></div>
-      <div class="stat"><strong>15+</strong><span>GTM product launches</span></div>
-      <div class="stat"><strong>8L+</strong><span>Social audience across platforms</span></div>
-      <div class="stat"><strong>₹5 Cr</strong><span>Annual marketing budget managed</span></div>
-      <div class="stat"><strong>180%</strong><span>YoY online sales growth</span></div>
-      <div class="stat"><strong>18</strong><span>Member cross-functional team</span></div>
-      <div class="stat"><strong>3+</strong><span>International markets expanded</span></div>
+
+      <div class="stat">
+        <strong>10+</strong>
+        <span>Years in marketing</span>
+      </div>
+
+      <div class="stat">
+        <strong>₹50 Cr</strong>
+        <span>Revenue scaled at Irra Agrotech</span>
+      </div>
+
+      <div class="stat">
+        <strong>15+</strong>
+        <span>GTM product launches</span>
+      </div>
+
+      <div class="stat">
+        <strong>8L+</strong>
+        <span>Social audience built across platforms</span>
+      </div>
+
+      <div class="stat">
+        <strong>₹5 Cr</strong>
+        <span>Annual marketing budget managed</span>
+      </div>
+
+      <div class="stat">
+        <strong>180%</strong>
+        <span>YoY online sales growth</span>
+      </div>
+
+      <div class="stat">
+        <strong>18</strong>
+        <span>Member cross-functional team</span>
+      </div>
+
+      <div class="stat">
+        <strong>3+</strong>
+        <span>International markets expanded</span>
+      </div>
+
     </div>
+
   </div>
+
 </section>
 
-<section id="experience">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Experience</h2>
-      <p class="lead">From scaling social and revenue to building AI-led marketing systems.</p>
-    </div>
-    <div class="timeline">
-      <article class="role">
-        <div class="date">Sep 2025 — Present</div>
-        <div>
-          <h3>Marketing Manager</h3>
-          <div class="company">Primexar Professional Management · Under Onexar · Dubai</div>
-          <ul>
-            <li>Lead the end-to-end marketing engine and global student acquisition strategy across India, GCC, USA and Southeast Asia.</li>
-            <li>Built structured tracking and reporting to move marketing toward a data-driven operating model.</li>
-            <li>Manage and optimise Google Ads, Meta and LinkedIn campaigns with focus on ROAS and acquisition efficiency.</li>
-            <li>Built an AI-powered content pipeline using HeyGen, ElevenLabs, Canva and automation tools such as Zapier.</li>
-            <li>Integrated AI into call-centre and marketing workflows, including Retell AI for automated calling and lead scoring.</li>
-            <li>Architected a Zoho CRM funnel with SQL-based data extraction for targeting and performance diagnostics.</li>
-            <li>Built automated WhatsApp Business API journeys and AI-assisted engagement sequences.</li>
-            <li>Created Power BI dashboards covering CAC, ROAS and conversion performance across markets.</li>
-            <li>Connected SEO and paid media to support workshops and events and improve lead generation.</li>
-          </ul>
-        </div>
-      </article>
 
-      <article class="role">
-        <div class="date">Jun 2015 — Apr 2025</div>
-        <div>
-          <h3>Marketing & Growth Leadership</h3>
-          <div class="company">Microbi Agrotech Pvt Ltd · Irra Agrotech</div>
-          <ul>
-            <li>Designed and led ATL and BTL campaigns across TV, billboards, YouTube, Google and Meta.</li>
-            <li>Built and grew a social audience of 8 lakh+ across platforms through content, campaigns and community building.</li>
-            <li>Conceptualised, scripted and produced promotional and product videos that reached millions of organic views.</li>
-            <li>Scaled client revenue from ₹1 Cr to ₹30 Cr within three years and further to ₹50 Cr through marketing, distribution and GTM execution.</li>
-            <li>Led B2C and B2B acquisition, engagement and retention strategies with continuous A/B testing and audience segmentation.</li>
-            <li>Directed 15+ GTM product launches from concept through execution.</li>
-            <li>Increased online sales by 180% YoY across Amazon, Flipkart, Agriplex and the company website.</li>
-            <li>Managed a ₹5 Cr annual marketing budget with focus on CAC efficiency and ROI.</li>
-            <li>Coordinated an 18-member cross-functional team across departments.</li>
-            <li>Planned and executed branded events at agricultural exhibitions for nine years and supported international expansion into Kenya and Southeast Asia.</li>
-          </ul>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="work">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Events & projects</h2>
-      <p class="lead">A visual look at leadership, presentations, teams and campaign environments.</p>
-    </div>
-    <div class="gallery">
-      <figure><img src="images/main-1.jpg" alt="Team and award recognition"><figcaption>Recognition, team and brand-building moments</figcaption></figure>
-      <figure><img src="images/main-2.jpg" alt="Team meeting"><figcaption>Cross-functional collaboration and team culture</figcaption></figure>
-      <figure><img src="images/main-3.jpg" alt="Charan presenting"><figcaption>Presentation and marketing communication</figcaption></figure>
-      <figure><img src="images/main-4.jpg" alt="Charan presenting to a group"><figcaption>Leading discussions and presenting ideas</figcaption></figure>
-      <figure><img src="images/experience-1.jpg" alt="Media event with cameras"><figcaption>Event and media coordination</figcaption></figure>
-    </div>
-  </div>
-</section>
+<!-- SOCIAL MEDIA ACHIEVEMENT -->
 
 <section>
+
   <div class="wrap">
+
     <div class="section-head">
-      <h2>Tools & capabilities</h2>
-      <p class="lead">The platforms and capabilities I use to turn strategy into execution.</p>
+
+      <h2>Building an audience</h2>
+
+      <p class="lead">
+        Content, community and platform strategy built around consistent
+        audience growth and engagement.
+      </p>
+
     </div>
-    <div class="card">
-      <div class="tags">
-        <span class="tag">Google Ads</span><span class="tag">Meta Ads</span><span class="tag">LinkedIn</span>
-        <span class="tag">YouTube</span><span class="tag">Zoho CRM</span><span class="tag">Power BI</span>
-        <span class="tag">SQL</span><span class="tag">WhatsApp Business API</span><span class="tag">Zapier</span>
-        <span class="tag">HeyGen</span><span class="tag">ElevenLabs</span><span class="tag">Retell AI</span>
-        <span class="tag">SEO</span><span class="tag">Content Strategy</span><span class="tag">Google Analytics</span>
-        <span class="tag">Campaign Management</span><span class="tag">Budget Forecasting</span>
+
+
+    <div class="social-growth">
+
+      <div class="social-photo">
+
+        <img
+          src="images/main-13.jpg"
+          alt="YouTube play button and social media achievement"
+        >
+
       </div>
+
+
+      <div class="social-content">
+
+        <div class="eyebrow">
+          Social Media Growth
+        </div>
+
+        <div class="social-number">
+          8L+
+        </div>
+
+        <h3>
+          Social audience built across platforms
+        </h3>
+
+        <p>
+          Built and grew a social audience of 8 lakh+ across platforms
+          through content strategy, campaign planning, video content,
+          community building and consistent audience engagement.
+        </p>
+
+        <div class="tags">
+          <span class="tag">YouTube</span>
+          <span class="tag">Social Media</span>
+          <span class="tag">Content Strategy</span>
+          <span class="tag">Video Marketing</span>
+          <span class="tag">Organic Growth</span>
+        </div>
+
+      </div>
+
     </div>
+
   </div>
+
 </section>
 
-<section id="contact" class="footer">
+
+<!-- SELECTED WORK -->
+
+<section id="work">
+
   <div class="wrap">
-    <div class="contact">
-      <div>
-        <div class="eyebrow">Let’s connect</div>
-        <h2>Have a growth challenge? Let’s talk.</h2>
-      </div>
-      <a href="mailto:charan.shankar09@gmail.com">Email me</a>
+
+    <div class="section-head">
+
+      <h2>Selected work & leadership</h2>
+
+      <p class="lead">
+        A selection of projects, partnerships, events, team collaborations
+        and marketing milestones from my career.
+      </p>
+
     </div>
-    <p class="small">
-      R. Charan Shankar Naidu · Bangalore · MBA in Marketing, Jain University
-    </p>
+
+
+    <!-- GOVERNMENT PROJECT -->
+
+    <div class="featured-grid">
+
+      <div class="featured-card">
+
+        <img
+          src="images/main-5.jpg"
+          alt="Government project meeting with MPs"
+        >
+
+        <div class="overlay">
+
+          <div class="work-label">
+            Government Project
+          </div>
+
+          <h3>
+            Working with government stakeholders
+          </h3>
+
+          <p>
+            Government project engagement involving meetings and
+            stakeholder discussions with Members of Parliament.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- GITEX -->
+
+      <div class="featured-card">
+
+        <img
+          src="images/main-6.jpg"
+          alt="GITEX international fintech event"
+        >
+
+        <div class="overlay">
+
+          <div class="work-label">
+            International FinTech Event
+          </div>
+
+          <h3>
+            GITEX
+          </h3>
+
+          <p>
+            International event environment focused on fintech,
+            business relationships and global networking.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- CANADA + B2B -->
+
+    <div class="work-grid">
+
+      <article class="work-card">
+
+        <img
+          src="images/main-7.jpg"
+          alt="Export collaboration with Canada Trade Commissioner"
+        >
+
+        <div class="work-content">
+
+          <div class="work-label">
+            International Business
+          </div>
+
+          <h3>
+            Export collaboration with Canada
+          </h3>
+
+          <p>
+            Business and export collaboration with the Trade Commissioner
+            and Canada Embassy.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="work-card">
+
+        <img
+          src="images/main-12.jpg"
+          alt="B2B collaboration with Barrix Agro Science"
+        >
+
+        <div class="work-content">
+
+          <div class="work-label">
+            B2B Collaboration
+          </div>
+
+          <h3>
+            Barrix Agro Science
+          </h3>
+
+          <p>
+            B2B collaboration and business engagement with Barrix Agro
+            Science, a funded agritech company.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="work-card">
+
+        <img
+          src="images/main-17.jpg"
+          alt="Product launch ATL and BTL campaign"
+        >
+
+        <div class="work-content">
+
+          <div class="work-label">
+            Product Launch
+          </div>
+
+          <h3>
+            ATL & BTL product marketing
+          </h3>
+
+          <p>
+            Product launch execution across ATL and BTL channels,
+            connecting brand communication with market activation.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="work-card">
+
+        <img
+          src="images/main-3.jpg"
+          alt="Team collaboration and business discussion"
+        >
+
+        <div class="work-content">
+
+          <div class="work-label">
+            Team Collaboration
+          </div>
+
+          <h3>
+            Cross-functional collaboration
+          </h3>
+
+          <p>
+            Working with teams across marketing, business and execution
+            to turn strategy into measurable outcomes.
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
   </div>
+
 </section>
+
+
+<!-- PHOTO ALBUM -->
+
+<section>
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <h2>More moments</h2>
+
+      <p class="lead">
+        Team discussions, leadership moments, presentations and
+        professional events.
+      </p>
+
+    </div>
+
+
+    <div class="album">
+
+      <figure>
+        <img src="images/main-4.jpg" alt="Professional event">
+        <figcaption>Professional event</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/main-8.jpg" alt="Professional interaction">
+        <figcaption>Professional interaction</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/main-9.jpg" alt="Marketing and business event">
+        <figcaption>Marketing and business event</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/main-10.jpg" alt="Leadership and professional event">
+        <figcaption>Leadership and professional event</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/main-11.jpg" alt="Team discussion">
+        <figcaption>Team discussions</figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <h2>Experience</h2>
+
+      <p class="lead">
+        From building audiences and scaling revenue to developing
+        AI-led marketing systems and international growth.
+      </p>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+      <article class="role">
+
+        <div class="date">
+          Sep 2025 — Present
+        </div>
+
+        <div>
+
+          <h3>
+            Marketing Manager
+          </h3>
+
+          <div class="company">
+            Primexar Professional Management · Under Onexar · Dubai
+          </div>
+
+          <ul>
+
+            <li>
+              Lead the end-to-end marketing engine and global student
+              acquisition strategy across India, GCC, USA and Southeast Asia.
+            </li>
+
+            <li>
+              Built structured tracking and reporting to move marketing
+              toward a data-driven operating model.
+            </li>
+
+            <li>
+              Manage and optimise Google Ads, Meta and LinkedIn campaigns
+              with focus on ROAS and acquisition efficiency.
+            </li>
+
+            <li>
+              Built an AI-powered content pipeline using HeyGen,
+              ElevenLabs, Canva and Zapier.
+            </li>
+
+            <li>
+              Integrated AI into call-centre and marketing workflows,
+              including Retell AI for automated calling and lead scoring.
+            </li>
+
+            <li>
+              Architected a Zoho CRM funnel with SQL-based data extraction
+              for targeting and performance diagnostics.
+            </li>
+
+            <li>
+              Built automated WhatsApp Business API journeys and
+              AI-assisted engagement sequences.
+            </li>
+
+            <li>
+              Created Power BI dashboards covering CAC, ROAS and
+              conversion performance across markets.
+            </li>
+
+            <li>
+              Connected SEO and paid media to support workshops,
+              events and lead generation.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </article>
+
+
+      <article class="role">
+
+        <div class="date">
+          Jun 2015 — Apr 2025
+        </div>
+
+        <div>
+
+          <h3>
+            Marketing & Growth Leadership
+          </h3>
+
+          <div class="company">
+            Microbi Agrotech Pvt Ltd · Irra Agrotech
+          </div>
+
+          <ul>
+
+            <li>
+              Designed and led ATL and BTL campaigns across TV,
+              billboards, YouTube, Google and Meta.
+            </li>
+
+            <li>
+              Built and grew a social audience of 8 lakh+ across
+              platforms through content, campaigns and community building.
+            </li>
+
+            <li>
+              Conceptualised, scripted and produced promotional and
+              product videos that reached millions of organic views.
+            </li>
+
+            <li>
+              Scaled revenue from ₹1 Cr to ₹30 Cr within three years
+              and further to ₹50 Cr through marketing, distribution
+              and GTM execution.
+            </li>
+
+            <li>
+              Led B2C and B2B acquisition, engagement and retention
+              strategies with continuous A/B testing and audience segmentation.
+            </li>
+
+            <li>
+              Directed 15+ GTM product launches from concept through execution.
+            </li>
+
+            <li>
+              Increased online sales by 180% YoY across Amazon,
+              Flipkart, Agriplex and the company website.
+            </li>
+
+            <li>
+              Managed a ₹5 Cr annual marketing budget with focus on
+              CAC efficiency and ROI.
+            </li>
+
+            <li>
+              Coordinated an 18-member cross-functional team across departments.
+            </li>
+
+            <li>
+              Planned and executed branded events at agricultural exhibitions
+              for nine years and supported international expansion into Kenya
+              and Southeast Asia.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- INSTAGRAM FINANCE -->
+
+<section>
+
+  <div class="wrap">
+
+    <div class="instagram">
+
+      <div>
+
+        <div class="eyebrow">
+          New Content Channel
+        </div>
+
+        <h3>
+          Finance, markets and learning
+        </h3>
+
+        <p>
+          I have also started creating content around finance,
+          markets and financial learning on Instagram, bringing
+          my marketing and communication experience into a new
+          content platform.
+        </p>
+
+      </div>
+
+      <!-- Replace the # below with your actual Instagram channel URL -->
+
+      <a
+        class="instagram-btn"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        View Instagram
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- TOOLS -->
+
+<section>
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <h2>Tools & capabilities</h2>
+
+      <p class="lead">
+        The platforms and capabilities I use to turn strategy into execution.
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="tags">
+
+        <span class="tag">Google Ads</span>
+        <span class="tag">Meta Ads</span>
+        <span class="tag">LinkedIn</span>
+        <span class="tag">YouTube</span>
+        <span class="tag">Zoho CRM</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">SQL</span>
+        <span class="tag">WhatsApp Business API</span>
+        <span class="tag">Zapier</span>
+        <span class="tag">HeyGen</span>
+        <span class="tag">ElevenLabs</span>
+        <span class="tag">Retell AI</span>
+        <span class="tag">SEO</span>
+        <span class="tag">Content Strategy</span>
+        <span class="tag">Google Analytics</span>
+        <span class="tag">B2B Marketing</span>
+        <span class="tag">Campaign Management</span>
+        <span class="tag">Budget Forecasting</span>
+        <span class="tag">GTM Strategy</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="footer">
+
+  <div class="wrap">
+
+    <div class="contact">
+
+      <div>
+
+        <div class="eyebrow">
+          Let’s connect
+        </div>
+
+        <h2>
+          Have a growth challenge? Let’s talk.
+        </h2>
+
+      </div>
+
+      <a href="mailto:charan.shankar09@gmail.com">
+        Email me
+      </a>
+
+    </div>
+
+
+    <p class="small">
+
+      R. Charan Shankar Naidu · Bangalore · MBA in Marketing, Jain University
+      <br><br>
+
+      Phone:
+      <a href="tel:+918197307148">
+        +91 8197307148
+      </a>
+
+      &nbsp; · &nbsp;
+
+      Email:
+      <a href="mailto:charan.shankar09@gmail.com">
+        charan.shankar09@gmail.com
+      </a>
+
+    </p>
+
+  </div>
+
+</section>
+
+
 </body>
 </html>
